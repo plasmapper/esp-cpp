@@ -1,5 +1,5 @@
-Network C++ Class Component for ESP-IDF
-=======================================
+Network Component
+=================
 
 Installation
 ------------

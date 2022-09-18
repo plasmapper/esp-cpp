@@ -1,5 +1,5 @@
-UART C++ Class Component for ESP-IDF
-====================================
+UART Component
+==============
 
 Installation
 ------------

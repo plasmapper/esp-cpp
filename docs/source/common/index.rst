@@ -1,5 +1,5 @@
-Common C++ Class Component for ESP-IDF
-======================================
+Common Component
+================
 
 Installation
 ------------
