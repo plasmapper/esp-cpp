@@ -1,0 +1,6 @@
+INPUT = ../pl_common/component/include ../pl_uart/component/include ../pl_network/component/include
+EXCLUDE = ../pl_common/component/include/pl_common.h
+GENERATE_XML = YES
+GENERATE_HTML = NO
+GENERATE_LATEX = NO
+INLINE_INHERITED_MEMB = YES
