@@ -17,6 +17,12 @@ Add this to the source code:
 .. code-block:: C++
 
   #include "pl_uart.h"
+  
+Add ``extern "C"`` to ``app_main`` in ``main.cpp``:
+
+.. code-block:: C++
+
+  extern "C" void app_main(void) {...}
 
 API reference
 -------------
