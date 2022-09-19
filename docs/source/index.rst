@@ -19,6 +19,7 @@ Components
 ----------
 
 .. toctree::
+  :maxdepth: 2
   
   common/index
   uart/index
