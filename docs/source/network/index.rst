@@ -18,6 +18,12 @@ Add this to the source code:
 
   #include "pl_network.h"
 
+Add ``extern "C"`` to ``app_main`` in ``main.cpp``:
+
+.. code-block:: C++
+
+  extern "C" void app_main(void) {...}
+
 API reference
 -------------
 
