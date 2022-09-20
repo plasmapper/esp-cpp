@@ -28,6 +28,12 @@ jobs:
         with:
           repository: plasmapper/network-esp-cpp
           path: docs/source/components/network
+
+      - name: Checkout modbus-esp-cpp
+        uses: actions/checkout@v2.4.2
+        with:
+          repository: plasmapper/modbus-esp-cpp
+          path: docs/source/components/modbus
     
       - name: Doxygen
         uses: mattnotmitt/doxygen-action@v1.1.0
