@@ -1,5 +1,7 @@
-INPUT = ../pl_common/component/include ../pl_uart/component/include ../pl_network/component/include
-EXCLUDE = ../pl_common/component/include/pl_common.h
+INPUT = source/components/common/component/include \
+        source/components/uart/component/include \
+        source/components/network/component/include
+EXCLUDE =  source/components/common/component/include/pl_common.h
 GENERATE_XML = YES
 GENERATE_HTML = NO
 GENERATE_LATEX = NO

@@ -11,23 +11,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.4.2
         
-      - name: Checkout pl_common
+      - name: Checkout common-esp-cpp
         uses: actions/checkout@v2.4.2
         with:
           repository: plasmapper/common-esp-cpp
-          path: pl_common
+          path: docs/source/components/common
           
-      - name: Checkout pl_uart
+      - name: Checkout uart-esp-cpp
         uses: actions/checkout@v2.4.2
         with:
           repository: plasmapper/uart-esp-cpp
-          path: pl_uart
+          path: docs/source/components/uart
           
-      - name: Checkout pl_network
+      - name: Checkout network-esp-cpp
         uses: actions/checkout@v2.4.2
         with:
           repository: plasmapper/network-esp-cpp
-          path: pl_network
+          path: docs/source/components/network
     
       - name: Doxygen
         uses: mattnotmitt/doxygen-action@v1.1.0
