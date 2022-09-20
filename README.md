@@ -3,7 +3,7 @@
 ## Components
 [Common Component](https://github.com/plasmapper/common-esp-cpp)  
 [UART Component](https://github.com/plasmapper/uart-esp-cpp)  
-[Network Component](https://github.com/plasmapper/network-esp-cpp)
+[Network Component](https://github.com/plasmapper/network-esp-cpp)  
 [Modbus Component](https://github.com/plasmapper/modbus-esp-cpp)
 
 ## Documentation
