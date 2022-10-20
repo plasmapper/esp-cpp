@@ -1,6 +1,7 @@
 INPUT = source/components/common/component/include \
         source/components/uart/component/include \
         source/components/network/component/include \
+        source/components/mdns/component/include \
         source/components/modbus/component/include
 EXCLUDE =  source/components/common/component/include/pl_common.h
 GENERATE_XML = YES
