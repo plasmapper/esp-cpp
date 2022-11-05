@@ -28,6 +28,12 @@ jobs:
         with:
           repository: plasmapper/network-esp-cpp
           path: docs/source/components/network
+
+      - name: Checkout http-esp-cpp
+        uses: actions/checkout@v2.4.2
+        with:
+          repository: plasmapper/http-esp-cpp
+          path: docs/source/components/http
           
       - name: Checkout mdns-esp-cpp
         uses: actions/checkout@v2.4.2

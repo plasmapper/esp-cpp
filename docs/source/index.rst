@@ -24,5 +24,6 @@ Components
   components/common/docs/index
   components/uart/docs/index
   components/network/docs/index
+  components/http/docs/index
   components/mdns/docs/index
   components/modbus/docs/index
