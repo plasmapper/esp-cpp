@@ -1,6 +1,7 @@
 INPUT = source/components/common/component/include \
         source/components/uart/component/include \
         source/components/network/component/include \
+        source/components/nvs/component/include \
         source/components/http/component/include \
         source/components/mdns/component/include \
         source/components/modbus/component/include
