@@ -7,7 +7,8 @@
 [NVS Component](https://github.com/plasmapper/nvs-esp-cpp)  
 [HTTP/HTTPS Component](https://github.com/plasmapper/http-esp-cpp)  
 [mDNS Component](https://github.com/plasmapper/mdns-esp-cpp)  
-[Modbus Component](https://github.com/plasmapper/modbus-esp-cpp)
+[Modbus Component](https://github.com/plasmapper/modbus-esp-cpp)  
+[BlackBox Component](https://github.com/plasmapper/blackbox-esp-cpp)
 
 ## Documentation
 [Documentation](https://plasmapper.github.io/esp-cpp/)
