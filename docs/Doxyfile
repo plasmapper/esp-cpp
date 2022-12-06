@@ -4,7 +4,8 @@ INPUT = source/components/common/component/include \
         source/components/nvs/component/include \
         source/components/http/component/include \
         source/components/mdns/component/include \
-        source/components/modbus/component/include
+        source/components/modbus/component/include \
+        source/components/blackbox/component/include
 GENERATE_XML = YES
 GENERATE_HTML = NO
 GENERATE_LATEX = NO
