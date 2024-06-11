@@ -9,52 +9,52 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v4
         
       - name: Checkout common-esp-cpp
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v4
         with:
           repository: plasmapper/common-esp-cpp
           path: docs/source/components/common
           
       - name: Checkout uart-esp-cpp
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v4
         with:
           repository: plasmapper/uart-esp-cpp
           path: docs/source/components/uart
           
       - name: Checkout network-esp-cpp
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v4
         with:
           repository: plasmapper/network-esp-cpp
           path: docs/source/components/network
 
       - name: Checkout nvs-esp-cpp
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v4
         with:
           repository: plasmapper/nvs-esp-cpp
           path: docs/source/components/nvs
 
       - name: Checkout http-esp-cpp
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v4
         with:
           repository: plasmapper/http-esp-cpp
           path: docs/source/components/http
           
       - name: Checkout mdns-esp-cpp
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v4
         with:
           repository: plasmapper/mdns-esp-cpp
           path: docs/source/components/mdns
 
       - name: Checkout modbus-esp-cpp
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v4
         with:
           repository: plasmapper/modbus-esp-cpp
           path: docs/source/components/modbus
 
       - name: Checkout blackbox-esp-cpp
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v4
         with:
           repository: plasmapper/blackbox-esp-cpp
           path: docs/source/components/blackbox
@@ -87,4 +87,4 @@ jobs:
     steps:
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v1.1.0
+        uses: actions/deploy-pages@v2
