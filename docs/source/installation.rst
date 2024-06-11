@@ -8,9 +8,7 @@ Add this to the ``idf_component.yml`` in the project ``main`` directory or in th
   :substitutions:
   
   dependencies:
-    pl_|COMPONENT|:
-      path: component
-      git: https://github.com/plasmapper/|COMPONENT|-esp-cpp.git
+    plasmapper/pl_|COMPONENT|: "^|VERSION|"
 
 Add this to the source code:
 
