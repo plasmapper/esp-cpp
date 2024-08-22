@@ -23,6 +23,12 @@ jobs:
           repository: plasmapper/uart-esp-cpp
           path: docs/source/components/uart
 
+      - name: Checkout spi-esp-cpp
+        uses: actions/checkout@v4
+        with:
+          repository: plasmapper/spi-esp-cpp
+          path: docs/source/components/spi
+
       - name: Checkout i2c-esp-cpp
         uses: actions/checkout@v4
         with:

@@ -3,6 +3,7 @@
 ## Components
 [Common Component](https://github.com/plasmapper/common-esp-cpp)  
 [UART Component](https://github.com/plasmapper/uart-esp-cpp)  
+[SPI Component](https://github.com/plasmapper/spi-esp-cpp)  
 [I2C Component](https://github.com/plasmapper/i2c-esp-cpp)  
 [Network Component](https://github.com/plasmapper/network-esp-cpp)  
 [NVS Component](https://github.com/plasmapper/nvs-esp-cpp)  
