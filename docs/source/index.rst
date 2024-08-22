@@ -23,6 +23,7 @@ Components
   
   components/common/docs/index
   components/uart/docs/index
+  components/i2c/docs/index
   components/network/docs/index
   components/nvs/docs/index
   components/http/docs/index

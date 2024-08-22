@@ -1,5 +1,6 @@
 INPUT = source/components/common/component/include \
         source/components/uart/component/include \
+        source/components/i2c/component/include \
         source/components/network/component/include \
         source/components/nvs/component/include \
         source/components/http/component/include \
