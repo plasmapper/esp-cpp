@@ -1,6 +1,6 @@
 Installation
 ------------
-The component requires ESP-IDF 5.0 and higher and is installed using `IDF Component Manager <https://github.com/espressif/idf-component-manager>`_.
+The component requires ESP-IDF |ESP_IDF_VERSION| and higher and is installed using `IDF Component Manager <https://github.com/espressif/idf-component-manager>`_.
 
 Add this to the ``idf_component.yml`` in the project ``main`` directory or in the component directory:
 
