@@ -70,6 +70,12 @@ jobs:
         with:
           repository: plasmapper/blackbox-esp-cpp
           path: docs/source/components/blackbox
+
+      - name: Checkout adxl355-esp-cpp
+        uses: actions/checkout@v4
+        with:
+          repository: plasmapper/adxl355-esp-cpp
+          path: docs/source/components/adxl355
     
       - name: Doxygen
         uses: mattnotmitt/doxygen-action@v1.9.8

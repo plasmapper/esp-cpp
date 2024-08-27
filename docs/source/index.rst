@@ -31,3 +31,4 @@ Components
   components/mdns/docs/index
   components/modbus/docs/index
   components/blackbox/docs/index
+  external_device_components
