@@ -1,0 +1,4 @@
+.. code-block::
+
+  CONFIG_COMPILER_CXX_RTTI=y
+  CONFIG_TINYUSB_CDC_ENABLED=y

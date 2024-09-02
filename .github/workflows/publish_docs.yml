@@ -41,6 +41,12 @@ jobs:
           repository: plasmapper/network-esp-cpp
           path: docs/source/components/network
 
+      - name: Checkout usb-esp-cpp
+        uses: actions/checkout@v4
+        with:
+          repository: plasmapper/usb-esp-cpp
+          path: docs/source/components/usb
+
       - name: Checkout nvs-esp-cpp
         uses: actions/checkout@v4
         with:
